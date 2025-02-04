@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?
+    family=poppins:wght@100;200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+    <meta name="keywords" content="plastic, plastics, khaled, sory">
+    <title>ARTilon Elrayis</title>
+</head>
+<body>
+  <section class="header">
+     <nav>
+        <a href="home.html"><img src="logo3.jpg"></a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="calcurater.html">الحاسبة</a></li>
+                <li><a href="calcurater2.html">calculator</a></li>
+                <li><a href="product.html">منتجاتنا</a></li>
+                <li><a href="contact.html">اتصل بنا</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+     </nav>
+
+     <div class="text-box">
+        <h1>ARTilon ElRayis</h1>
+        <p>"Artelon is the Leader in Dynamic Orthopedic Soft Tissue Reconstruction.
+            Artelon’s mission is<br> to serve surgeons practicing sports medicine . </p>
+              <a href="product.html" class="hero-btn">visit our products</a>
+     </div>
+  </section>
+
+<!--page2-->
+<section class="page2">
+    <h1>our products</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>product 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Tempore ratione veniam ducimus nihil aliquid nesciunt explicabo qui sit itaque consectetur.</p>
+        </div>
+        <div class="course-col">
+            <h3>product 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Tempore ratione veniam ducimus nihil aliquid nesciunt explicabo qui sit itaque consectetur.</p>
+        </div>
+        <div class="course-col">
+            <h3>product 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Tempore ratione veniam ducimus nihil aliquid nesciunt explicabo qui sit itaque consectetur.</p>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+   <!--Javascript for toggle menu -->
+  <script>
+    var navlinks = document.getElementById("navlinks")
+    function showmenu(){
+        navlinks.style.right = "0";
+    }
+    function hidemenu(){
+        navlinks.style.right = "-200px";
+    }
+  </script>
+</body>
+</html>
